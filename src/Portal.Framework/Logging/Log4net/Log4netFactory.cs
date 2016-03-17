@@ -16,7 +16,7 @@ namespace Portal.Framework.Logging
             if (!_isFileWatched && !string.IsNullOrWhiteSpace(configFilename))
             {
                 // Only monitor configuration file in full trust
-                XmlConfigurator.Configure(new FileInfo(configFilename));
+                //XmlConfigurator.Configure(new FileInfo(configFilename));
                 _isFileWatched = true;
             }
         }
