@@ -90,6 +90,7 @@ namespace Portal.Framework.Logging
         /// <returns></returns>
         public IDisposable BeginScopeImpl(object state)
         {
+            return null;
         }
 
         private void FormatLogValues(StringBuilder builder, ILogValues logValues, int level, bool bullet)

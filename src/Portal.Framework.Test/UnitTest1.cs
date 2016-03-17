@@ -10,7 +10,6 @@ namespace Portal.Framework.Test
         [TestMethod]
         public void CastleLoggerProvider()
         {
-            ILoggerFactory loggerFactory = new LoggerFactory();
         }
     }
 }
