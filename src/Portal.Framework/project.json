@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0-*",
+  "description": "Portal.Framework Class Library",
+  "authors": [ "Xing" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "log4net": "2.0.5",
+    "Microsoft.Extensions.Logging.Abstractions": "1.0.0-rc1-final"
+  },
+
+  "frameworks": {
+    "dnx451": {
+     
+    },
+    "dnx50": {
+
+    }
+  }
+}
