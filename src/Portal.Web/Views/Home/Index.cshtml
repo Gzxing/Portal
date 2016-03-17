@@ -1,6 +1,18 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<div ng-controller="HelloController">
+    <h2>你好 ！第一个{{helloTo.title}}程序示例</h2>
+</div>
+@section Scripts {
+    <script>
+        angular.module("app", [])
+            .controller("HelloController", function($scope) {
+                $scope.helloTo = {};
+                $scope.helloTo.title = "AngularJS";
+            });
+    </script>
+}
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
     <ol class="carousel-indicators">
